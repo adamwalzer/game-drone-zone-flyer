@@ -1,0 +1,9 @@
+{
+    "id": "drone-zone-flyer",
+    "media_folder": "drone-zone",
+    "version": 1,
+    "dimensions": {
+        "width": 960,
+        "height": 540
+    }
+}
