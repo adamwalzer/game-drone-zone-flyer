@@ -21,7 +21,7 @@ const mailDefaultProps = {
 
 const plantDefaultProps = {
     image: 'plant',
-    body: [90,130, 45, 65],
+    body: [90, 130, 45, 65],
     scale: [.5, .5],
 };
 
