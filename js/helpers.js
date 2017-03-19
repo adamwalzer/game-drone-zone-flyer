@@ -45,12 +45,11 @@ export default {
     },
     onPlantOverlap(p, i) {
         i.kill();
-        p.fast = (p.fast || 0) + 1;
-        setTimeout(() => {
-            p.fast--;
-        }, this.opts.fastDuration);
+        // p.fast = (p.fast || 0) + 1;
+        // setTimeout(() => {
+        //     p.fast--;
+        // }, this.opts.fastDuration);
         this.helpers.updateScore.call(this, 3);
-        // this.audio.plant.play();
     },
     onBatteryOverlap(p, i) {
         i.kill();
