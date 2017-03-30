@@ -3,26 +3,31 @@
 
 const fireDefaultProps = {
     image: 'fire',
+    body: [140, 230, 70, 115],
     scale: [.5, .5],
 };
 
 const cloudDefaultProps = {
     image: 'cloud',
+    body: [180, 110, 90, 55],
     scale: [.75, .75],
 };
 
 const mailDefaultProps = {
     image: 'mail',
+    body: [72, 55, 36, 27],
     scale: [.5, .5],
 };
 
 const plantDefaultProps = {
     image: 'plant',
+    body: [90, 130, 45, 65],
     scale: [.5, .5],
 };
 
 const mailboxDefaultProps = {
     image: 'mailbox',
+    body: [65, 108, 32, 54],
     scale: [.5, .5],
 };
 
@@ -33,6 +38,7 @@ const extinguisherDefaultProps = {
 
 const farmingDefaultProps = {
     image: 'farming',
+    body: [55, 70, 27, 35],
     scale: [1, 1],
 };
 
@@ -42,7 +48,7 @@ export default {
     bounceY: 0,
     gravityY: 600,
     playerImage: 'fire-drone',
-    playerBody: [500, 100, 500, 500],
+    playerBody: [240, 270, 325, 270],
     leftFrames: [6, 5, 4, 3, 2, 1, 0],
     leftFrameRate: 10,
     leftLoop: true,
@@ -63,20 +69,24 @@ export default {
     itemProps: {
         star: {
             image: 'star',
+            body: [740, 755, 370, 377],
             scale: [.10, .10],
         },
         helicopter: {
             image: 'helicopter',
+            body: [360, 360, 180, 180],
             scale: [.5, .5],
             collideWorldBounds: false,
         },
         plane: {
             image: 'plane',
+            body: [288, 288, 144, 144],
             scale: [.5, .5],
             collideWorldBounds: false,
         },
         balloon: {
             image: 'balloon',
+            body: [196, 245, 98, 122],
             scale: [.5, .5],
             collideWorldBounds: false,
         },
@@ -116,6 +126,7 @@ export default {
         },
         powerline: {
             image: 'powerline',
+            body: [225, 242, 112, 121],
             scale: [.5, .5],
         },
         cloud1: _.defaults({

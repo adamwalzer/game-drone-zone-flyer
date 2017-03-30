@@ -8,8 +8,8 @@ export default function () {
 
     setGameStage.call(this, {
         width: 30000,
-        height: 740,
-        top: -200,
+        height: 540,
+        top: 0,
     });
 
     this.helpers.makeBackground.call(this);
@@ -19,7 +19,7 @@ export default function () {
 
     addPlayer.call(this, {
         left: 300,
-        top: this.game.world.height - 650,
+        top: 200,
         image: playerImage,
         bounceY: 0,
         gravityY: 0,
